@@ -1,11 +1,152 @@
-body {
-    background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
   }
   
+  /* Body */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    color: #222;
+  }
+  
+  /* Header, Footer, Div */
+  header, footer, div {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  /* Header and Footer */
+  header, footer {
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* H1 */
   h1 {
-    color: red;
+    font-size: 40px;
   }
   
-  /* Add more CSS rules as needed */
+  /* H2 */
+  h2 {
+    font-size: 32px;
+  }
+  
+  /* H3 */
+  h3 {
+    font-size: 24px;
+  }
+  
+  /* Grid Container */
+  #grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #ffc627;
+  }
+  
+  /* Unordered List in Navigation */
+  nav ul {
+    padding-left: 0;
+  }
+  
+  /* List Items in Navigation */
+  nav li {
+    list-style-type: none;
+  }
+  
+  /* Links in Navigation */
+  nav a {
+    display: block;
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    margin: 24px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* Hover Over Links in Navigation */
+  nav a:hover {
+    background-color: #fff;
+    color: #8c1d40;
+  }
+  
+  /* Main */
+  main {
+    background-color: #fff;
+    padding: 24px;
+  }
+  
+  /* Links in Main */
+  main a {
+    color: #8c1d40;
+    font-weight: bold;
+  }
+  
+  /* Hover Over Links in Main */
+  main a:hover {
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 4px;
+  }
+  
+  /* Paragraphs and Quote */
+  p, q {
+    color: #444;
+  }
+  
+  /* Quote */
+  q {
+    font-style: italic;
+  }
+  
+  /* Years in Main */
+  .year {
+    background-color: #ffc627;
+    color: #555;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* H2 in Footer */
+  footer h2 {
+    font-size: 24px;
+    margin: 8px;
+  }
+  
+  /* Address Content */
+  address {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Links in Footer */
+  footer a {
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  /* Hover Over Links in Footer */
+  footer a:hover {
+    color: #ffc627;
+  }
   
